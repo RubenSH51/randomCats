@@ -1,0 +1,169 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html
+{
+    font-size: 62.5%;
+    background-image: linear-gradient(to right top, #fba26a, #fb9b5c, #fa934d, #f98c3d,
+     #f7852c, #f68c2d, #f5932f, #f49931, #f4ad4b, #f5c066, #f6d182, #f9e29f);
+}
+
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+h1
+{
+    font-size: 3rem;
+    text-align: center;
+    margin: 25px;
+}
+
+h2
+{
+    font-size: 2.2rem;
+    text-align: center;
+}
+
+.random-michis
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.random-michis button
+{
+    width: 50%;
+    height: 35px;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+
+.imgContainer
+{
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    place-items: center;
+    gap: 10px;
+}
+.imgContainer article
+{
+    width: 100%;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.imgContainer article button
+{
+    width: 100%;
+
+}
+
+.imgContainer img
+{
+    width: 100%;
+    height: 250px;
+    border-radius: 8px 8px 0 0;
+}
+
+h2
+{
+    text-align: center;
+}
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+.upload-michi
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 25px 0;
+}
+
+.upload-michi div
+{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.upload-michi div form input
+{
+    margin: 10px 0;
+
+}
+
+.upload-michi div form button
+{
+    width: 100%;
+    height: 35px;
+    border: 2px solid black;
+    border-radius: 15px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+
+.upload-michi div form
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+.favorite-michis 
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.favorite-michis .container
+{   
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    place-items: center;
+    gap: 10px;
+}
+.container article
+{
+    width: 100%;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.container img
+{
+    width: 100%;
+    height: 250px;
+    border-radius: 8px 8px 0 0;
+}
+
+.favorite-michis .container button
+{
+    width: 100%;
+    height: 25px;
+    font-size: 1.3rem;
+    font-size: bold;
+}

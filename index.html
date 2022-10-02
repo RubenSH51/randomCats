@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css">
+
+</head>
+<body>
+    <h1>Random cats!</h1>
+
+    <span id="error"></span>
+
+    <section class="random-michis"> 
+        <button onclick="myCats()">I want more cat pics!</button>
+        <div class="imgContainer">
+            <article>
+                <div>
+                    <img alt="Cargando foto de gatito">
+                </div>
+                <button>Agregar gatito</button>
+            </article>
+            <article>
+                <div>
+                    <img alt="Cargando foto de gatito">
+                </div>
+                <button>Agregar gatito</button>
+            </article>
+            <article>
+                <div>
+                    <img alt="Cargando foto de gatito">
+                </div>
+                <button>Agregar gatito</button>
+            </article>
+            <article>
+                <div>
+                    <img alt="Cargando foto de gatito">
+                </div>
+                <button>Agregar gatito</button>
+            </article>
+            <article>
+                <div>
+                    <img alt="Cargando foto de gatito">
+                </div>
+                <button>Agregar gatito</button>
+            </article>
+            <article>
+                <div>
+                    <img alt="Cargando foto de gatito">
+                </div>
+                <button>Agregar gatito</button>
+            </article>
+
+        </div>
+        
+    </section>
+
+    <section class="upload-michi">
+        <div>
+            <h2>Sube una foto de Michi</h2>
+            <form id="uploadingForm">
+                <input type="file" id="file" name="file">
+                <button type="button" onclick="uploadMichi()">Subir Michi</button>
+            </form>
+        </div>
+    </section>
+
+    <section class="favorite-michis">
+        <h2>Favoritos</h2>
+        <div class="container">
+
+        </div>
+    </section>
+    
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
